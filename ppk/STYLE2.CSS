@@ -1,0 +1,10 @@
+
+div{
+    width: 500px;
+    height: 500px;
+   border: 1px solid black;
+   margin: 0 auto;
+   padding: 120px;
+   box-sizing: border-box;
+   background-image: linear-gradient(to left, cyan 10%, white 10%);
+}

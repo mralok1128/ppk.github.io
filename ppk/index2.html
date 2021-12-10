@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" href="STYLE2.CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+   <center> <h1>welcome to login page</h1></center>
+   <hr>
+   <div>
+    user name:<br>
+    <input type="text" name="text" id="username">
+    <br><br>
+    password: <br>
+    <input type="password" name="text" id="password">
+    <br><br>
+
+    <button onclick="login()">submit</button>
+   </div>
+   <script>
+       function login()
+       {
+           var uname=document.getElementById('username').value;
+           var pass=document.getElementById('password').value;
+
+           if (uname=="PANKAJ KUMAR" && pass=="MITHI")
+           {
+               location.assign("/index.html");
+           }
+           else
+           {
+               window.alert("login faile");
+           }
+       }
+   </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+*{
+padding: 0;
+    margin: 0;
+    background-image: url(img/j.png);
+    
+}
+.NAV{
+    width: 100%; height: 20vh;  
+display: flex; justify-content: space-around;
+align-items: center;
+background-image: linear-gradient(to top, cyan 50%, cyan 50%);
+
+
+}
+.img{
+    display: flex; justify-content: right;
+    background-image: linear-gradient( to left, green 22vh);
+    
+}
+.NAV :last-child {
+    text-decoration: black;
+}
